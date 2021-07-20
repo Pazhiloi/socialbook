@@ -1,12 +1,28 @@
-$default: #5b6996;
-$accent1: #6957ed;
-$accent2: #ff3b63;
-$title:#0e0d4c;
+$default: #626262;
+$default1: #9a9a9a;
+$accent: #1876f2;
 $bg: #fff;
-$review: #353456;
-$link: #0e0d4c;
 
 
+%df{
+  display: flex;
+  align-items: center;
+}
+%br{
+  border-radius: 4px;
+}
+%pr{
+  position: relative;
+}
+%pa{
+  position: absolute;
+}
+%br50{
+  border-radius: 50%;
+}
+%w100{
+  width: 100%;
+}
 %poppins-700{
   font-family: 'Poppins-Bold', sans-serif;
   font-weight: 700;
